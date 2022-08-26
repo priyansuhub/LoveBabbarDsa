@@ -8,11 +8,7 @@ int main(){
     int stored = 0;
     int count = 0;
     while(temp!= 0){
-       if((temp & 1) == 1){
-        stored+= pow(2, count);
-       }
-       count++;
-       temp >>1;
+       
     }
     cout<<stored<<endl;
     return 0;
